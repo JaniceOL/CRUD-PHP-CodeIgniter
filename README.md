@@ -1,2 +1,20 @@
 # CRUD-PHP-CodeIgniter
-desenvolvido em PHP utilizando o framework CodeIgniter. O CRUD é uma aplicação simples que realiza as quatro operações básicas de um banco de dados: criação, leitura, atualização e exclusão de registros com banco de dados MySQL.
+
+Este projeto é uma aplicação **CRUD** (Create, Read, Update, Delete) desenvolvida em **PHP** utilizando o framework **CodeIgniter**. A aplicação realiza as quatro operações básicas de um banco de dados com **MySQL**.
+
+## Tecnologias Utilizadas
+
+- **PHP**: Linguagem de programação para desenvolvimento backend.
+- **CodeIgniter**: Framework PHP que facilita a construção de aplicações utilizando o padrão MVC (Model-View-Controller).
+- **MySQL**: Sistema de gerenciamento de banco de dados relacional para armazenar registros.
+- **HTML/CSS**: Para a estrutura e estilo da interface do usuário.
+- **JavaScript**: Para manipulação dinâmica de interações na interface.
+
+## Funcionalidades
+
+- **Criação**: Adiciona novos registros ao banco de dados.
+- **Leitura**: Exibe registros armazenados em uma tabela.
+- **Atualização**: Modifica registros existentes no banco de dados.
+- **Exclusão**: Remove registros do banco de dados.
+
+## Configuração e Execução
