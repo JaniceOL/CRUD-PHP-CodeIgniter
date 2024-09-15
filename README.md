@@ -5,10 +5,10 @@ Este projeto é uma aplicação **CRUD** (Create, Read, Update, Delete) desenvol
 ## Tecnologias Utilizadas
 
 - **PHP**: Linguagem de programação para desenvolvimento backend.
-- **CodeIgniter**: Framework PHP que facilita a construção de aplicações utilizando o padrão MVC (Model-View-Controller).
+- **Codeigniter**: Framework PHP que facilita a construção de aplicações utilizando o padrão MVC (Model-View-Controller).
 - **MySQL**: Sistema de gerenciamento de banco de dados relacional para armazenar registros.
-- **HTML/CSS**: Para a estrutura e estilo da interface do usuário.
-- **JavaScript**: Para manipulação dinâmica de interações na interface.
+- **HTML**: Para a estrutura e estilo da interface do usuário.
+- **Bootstrap**: Tabelas e outros ajutes.
 
 ## Funcionalidades
 
