@@ -1,0 +1,1136 @@
+CRITICAL - 2024-09-13 15:35:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(10): view('alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:35:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(10): view('alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:37:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(11): view('alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:37:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(11): view('alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:37:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(11): view('alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:40:29 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:02 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:03 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:04 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:05 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:06 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:16 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:25 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:28 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:55 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:41:56 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:45:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(10): view('/alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:45:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(10): view('/alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:45:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(10): view('/alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:45:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/alunos/listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/alunos/listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/alunos/listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(10): view('/alunos/listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:34:44 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:36:28 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:36:29 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:36:29 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:38:10 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:38:42 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:38:48 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:38:54 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:39:25 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:39:26 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:39:32 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:39:59 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:40:12 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:40:15 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:40:27 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:41:04 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:41:05 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:41:31 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:41:32 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:43:09 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:43:12 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:43:41 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:43:42 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:46:04 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:46:06 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:46:08 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:46:09 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:56:08 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:56:11 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:59:24 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:59:25 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:00:14 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:00:15 --> Error: Class "App\Controllers\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:00:35 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:00:36 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:00:37 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:07 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:08 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:35 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:36 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:38 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:39 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:42 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:43 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:44 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:46 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:47 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:01:48 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:02:03 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:02:04 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:02:40 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:02:43 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:02:45 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:03:07 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:03:10 --> ErrorException: compact(): Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Teste.php', 12)
+ 2 APPPATH\Controllers\Teste.php(12): compact('dados')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:17:51 --> BadMethodCallException: Call to undefined method App\Models\AlunosModel::getAlunos
+[Method: GET, Route: teste]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Teste.php(12): CodeIgniter\Model->__call('getAlunos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:28:01 --> BadMethodCallException: Call to undefined method App\Models\AlunosModel::getAlunos
+[Method: GET, Route: teste]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Teste.php(12): CodeIgniter\Model->__call('getAlunos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:28:02 --> BadMethodCallException: Call to undefined method App\Models\AlunosModel::getAlunos
+[Method: GET, Route: teste]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Teste.php(12): CodeIgniter\Model->__call('getAlunos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:28:48 --> BadMethodCallException: Call to undefined method App\Models\AlunosModel::getAlunos
+[Method: GET, Route: teste]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Teste.php(12): CodeIgniter\Model->__call('getAlunos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:30:20 --> Error: Class "CodeIgniter\Models" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:31:25 --> Error: Class "CodeIgniter\Models" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:36:47 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:36:48 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:39:12 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:40:50 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:41:38 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:44:43 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:44:46 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:49:41 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:52:03 --> Error: Class "App\CodeIgniter\Model" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:53:44 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:59:34 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:00:49 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:01:36 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:01:37 --> TypeError: App\Controllers\Teste::index(): Return value must be of type string, none returned
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:02:56 --> ErrorException: Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Views\layout\alunos\listados.php on line 23.
+ 1 APPPATH\Views\layout\alunos\listados.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\alunos\\listados.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\alunos\\listados.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/alunos/listados', [], true)
+ 5 APPPATH\Controllers\Teste.php(14): view('layout/alunos/listados')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:02:57 --> ErrorException: Undefined variable $dados
+[Method: GET, Route: teste]
+in APPPATH\Views\layout\alunos\listados.php on line 23.
+ 1 APPPATH\Views\layout\alunos\listados.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\alunos\\listados.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\alunos\\listados.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/alunos/listados', [], true)
+ 5 APPPATH\Controllers\Teste.php(14): view('layout/alunos/listados')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:03:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/alunos.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/alunos.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/alunos', [], true)
+ 3 APPPATH\Controllers\Teste.php(14): view('layout/alunos')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:03:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/alunos.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/alunos.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/alunos', [], true)
+ 3 APPPATH\Controllers\Teste.php(14): view('layout/alunos')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:03:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/alunos,listados.php"
+[Method: GET, Route: teste]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/alunos,listados.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/alunos,listados', [], true)
+ 3 APPPATH\Controllers\Teste.php(14): view('layout/alunos,listados')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:08:28 --> Error: Class "App\Models" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:08:30 --> Error: Class "App\Models" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:08:33 --> Error: Class "App\Models" not found
+[Method: GET, Route: teste]
+in APPPATH\Models\AlunosModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\crudphp\\app\\Models\\AlunosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AlunosModel')
+ 4 APPPATH\Controllers\Teste.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AlunosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:39:45 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:39:50 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:51:05 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:51:07 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:51:09 --> Error: Class "App\Models\AlunosModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:57:24 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:59:45 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: teste]
+in APPPATH\Controllers\Teste.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teste->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teste))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

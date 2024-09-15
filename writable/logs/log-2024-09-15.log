@@ -1,0 +1,1032 @@
+CRITICAL - 2024-09-15 09:44:28 --> CodeIgniter\Filters\Exceptions\FilterException: "toolbar" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 329.
+ 1 SYSTEMPATH\Filters\Filters.php(329): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH\View\View.php(265): CodeIgniter\Filters\Filters->getRequiredFilters('after')
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/header', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('layout/header')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 09:45:10 --> CodeIgniter\Filters\Exceptions\FilterException: "toolbar" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 329.
+ 1 SYSTEMPATH\Filters\Filters.php(329): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH\View\View.php(265): CodeIgniter\Filters\Filters->getRequiredFilters('after')
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/header', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('layout/header')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 09:45:12 --> CodeIgniter\Filters\Exceptions\FilterException: "toolbar" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH\Filters\Filters.php on line 329.
+ 1 SYSTEMPATH\Filters\Filters.php(329): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH\View\View.php(265): CodeIgniter\Filters\Filters->getRequiredFilters('after')
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/header', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('layout/header')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 10:16:26 --> CSRF token verified.
+ERROR - 2024-09-15 10:16:26 --> mysqli_sql_exception: Duplicate entry '0' for key 'users.PRIMARY' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\crudphp\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\crudphp\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\crudphp\app\Controllers\Home.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->addUser()
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#16 {main}
+CRITICAL - 2024-09-15 10:16:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.PRIMARY'
+[Method: POST, Route: add]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:16:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:16:26 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'users.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+ERROR - 2024-09-15 10:20:10 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'crud_db' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'crud_db', 3306, '', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\crudphp\app\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\crudphp\app\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+#8 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'crud_db' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\crudphp\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\crudphp\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\crudphp\app\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\crudphp\app\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+#7 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#14 {main}
+CRITICAL - 2024-09-15 10:20:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'crud_db'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+ERROR - 2024-09-15 10:20:18 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'crud_db' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'crud_db', 3306, '', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\crudphp\app\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\crudphp\app\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+#8 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'crud_db' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\crudphp\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\crudphp\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\crudphp\app\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\crudphp\app\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+#7 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#14 {main}
+CRITICAL - 2024-09-15 10:20:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'crud_db'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+ERROR - 2024-09-15 10:20:46 --> mysqli_sql_exception: Table 'crud_db.users' doesn't exist in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\crudphp\app\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\crudphp\app\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+#8 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#15 {main}
+CRITICAL - 2024-09-15 10:20:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'crud_db.users' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:20:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'crud_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:20:46 --> [Caused by] mysqli_sql_exception: Table 'crud_db.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\UserModel.php(27): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(12): App\Models\UserModel->getUsers()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+ERROR - 2024-09-15 10:26:23 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+INFO - 2024-09-15 10:26:42 --> CSRF token verified.
+INFO - 2024-09-15 10:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 10:27:42 --> CSRF token verified.
+ERROR - 2024-09-15 10:27:42 --> mysqli_sql_exception: Duplicate entry '0' for key 'users.id' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\crudphp\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\crudphp\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\crudphp\app\Controllers\Home.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->addUser()
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#16 {main}
+CRITICAL - 2024-09-15 10:27:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.id'
+[Method: POST, Route: add]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:27:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:27:42 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'users.id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 10:28:07 --> CSRF token verified.
+ERROR - 2024-09-15 10:28:07 --> mysqli_sql_exception: Duplicate entry '0' for key 'users.id' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\crudphp\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\crudphp\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\crudphp\app\Controllers\Home.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->addUser()
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#16 {main}
+CRITICAL - 2024-09-15 10:28:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.id'
+[Method: POST, Route: add]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:28:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:28:07 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'users.id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'Helga\', \'oliveira.janice.ufpe@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 10:28:49 --> CSRF token verified.
+ERROR - 2024-09-15 10:28:49 --> mysqli_sql_exception: Duplicate entry '0' for key 'users.id' in C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\crudphp\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\crudphp\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\crudphp\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\crudphp\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\crudphp\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\crudphp\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\crudphp\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\crudphp\app\Controllers\Home.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\crudphp\system\CodeIgniter.php(933): App\Controllers\Home->addUser()
+#10 C:\wamp64\www\crudphp\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\crudphp\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\crudphp\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\crudphp\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\wamp64\www\crudphp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\wamp64\www\crudphp\system\rewrite.php(44): require_once('C:\\wamp64\\www\\c...')
+#16 {main}
+CRITICAL - 2024-09-15 10:28:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.id'
+[Method: POST, Route: add]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:28:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'users.id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'everton\', \'webmaster2@i9sempreportugal.pt\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'everton\', \'webmaster2@i9sempreportugal.pt\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 10:28:49 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'users.id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`name`, `email`) VALUES (\'everton\', \'webmaster2@i9sempreportugal.pt\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`) VALUES (\'everton\', \'webmaster2@i9sempreportugal.pt\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`) VALUES (\'everton\', \'webmaster2@i9sempreportugal.pt\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(40): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+ERROR - 2024-09-15 10:42:39 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+INFO - 2024-09-15 10:42:47 --> CSRF token verified.
+INFO - 2024-09-15 10:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 10:42:56 --> CSRF token verified.
+INFO - 2024-09-15 10:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 10:43:02 --> CSRF token verified.
+INFO - 2024-09-15 10:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 10:43:08 --> CSRF token verified.
+INFO - 2024-09-15 10:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 11:48:00 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:48:27 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 1.
+ 1 APPPATH\Views\layout\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:48:52 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 1.
+ 1 APPPATH\Views\layout\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:49:41 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:53:49 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:55:42 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:59:35 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 11:59:43 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:00:38 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:02:11 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:02:35 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:04:00 --> ErrorException: Undefined variable $user
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 11.
+ 1 APPPATH\Views\layout\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(67): view('layout/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:09:11 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:09:57 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:11:14 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:12:05 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:12:29 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:13:06 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:15:47 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:18:37 --> ErrorException: Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\UserModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-15 12:18:38 --> ErrorException: Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\UserModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-15 12:18:45 --> ErrorException: Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\UserModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-15 12:18:52 --> ErrorException: Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\UserModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-15 12:18:53 --> ErrorException: Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\UserModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-15 12:19:05 --> ErrorException: Declaration of App\Models\UserModel::update($id, $data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: /]
+in APPPATH\Models\UserModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-15 12:24:44 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:25:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit]
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:28:53 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 1.
+ 1 APPPATH\Views\layout\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+CRITICAL - 2024-09-15 12:29:57 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: edit]
+in APPPATH\Views\layout\edit.php on line 1.
+ 1 APPPATH\Views\layout\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\crudphp\\app\\Views\\layout\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/edit', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('layout/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 13:18:28 --> CSRF token verified.
+INFO - 2024-09-15 13:21:28 --> CSRF token verified.
+INFO - 2024-09-15 13:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 13:21:40 --> CSRF token verified.
+INFO - 2024-09-15 13:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 14:09:33 --> CSRF token verified.
+CRITICAL - 2024-09-15 14:09:33 --> ErrorException: Undefined array key "nome"
+[Method: POST, Route: add]
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\wamp64\\www\\crudphp\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 14:10:10 --> CSRF token verified.
+INFO - 2024-09-15 14:42:30 --> CSRF token verified.
+CRITICAL - 2024-09-15 14:42:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: add]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('add', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 14:43:32 --> CSRF token verified.
+INFO - 2024-09-15 14:46:52 --> CSRF token verified.
+INFO - 2024-09-15 14:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 14:47:34 --> TypeError: App\Controllers\Home::add(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: add]
+in APPPATH\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 14:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 14:47:38 --> TypeError: App\Controllers\Home::add(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: add]
+in APPPATH\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 14:48:49 --> CSRF token verified.
+CRITICAL - 2024-09-15 14:48:59 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: add]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('add', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 14:56:31 --> CSRF token verified.
+INFO - 2024-09-15 15:16:58 --> CSRF token verified.
+INFO - 2024-09-15 15:17:43 --> CSRF token verified.
+INFO - 2024-09-15 15:18:02 --> CSRF token verified.
+INFO - 2024-09-15 15:18:32 --> CSRF token verified.
+INFO - 2024-09-15 15:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 15:18:32 --> TypeError: App\Controllers\Home::addUser(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: add]
+in APPPATH\Controllers\Home.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 15:19:08 --> CSRF token verified.
+INFO - 2024-09-15 15:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 15:19:08 --> TypeError: App\Controllers\Home::addUser(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: add]
+in APPPATH\Controllers\Home.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->addUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 15:19:59 --> CSRF token verified.
+INFO - 2024-09-15 15:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 15:31:35 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::edit(), 0 passed in C:\wamp64\www\crudphp\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit10]
+in APPPATH\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 15:36:29 --> CSRF token verified.
+INFO - 2024-09-15 15:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 15:36:29 --> TypeError: App\Controllers\Home::edituser(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: edituser1]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edituser('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 15:36:50 --> CSRF token verified.
+INFO - 2024-09-15 15:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 15:36:50 --> TypeError: App\Controllers\Home::edituser(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: edituser1]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edituser('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 15:40:50 --> CSRF token verified.
+INFO - 2024-09-15 15:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:41:00 --> CSRF token verified.
+INFO - 2024-09-15 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-15 15:44:58 --> ErrorException: Array to string conversion
+[Method: GET, Route: delete1]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\crudphp\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `users`
+WHERE `id` IN :id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id` IN :id:', [...], false)
+ 7 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 8 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 9 APPPATH\Controllers\Home.php(90): CodeIgniter\BaseModel->delete([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->deletar('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\crudphp\\public\\index.php')
+INFO - 2024-09-15 15:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-15 15:47:39 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:47:41 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:47:41 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:47:41 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:47:41 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:47:41 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+INFO - 2024-09-15 15:47:47 --> CSRF token verified.
+INFO - 2024-09-15 15:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:48:04 --> CSRF token verified.
+INFO - 2024-09-15 15:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-15 15:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-15 15:48:06 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:52:04 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:54:15 --> Falha ao buscar usuários ou nenhum usuário encontrado.
+ERROR - 2024-09-15 15:54:24 --> Falha ao buscar usuários ou nenhum usuário encontrado.

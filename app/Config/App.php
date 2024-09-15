@@ -6,6 +6,63 @@ use CodeIgniter\Config\BaseConfig;
 
 class App extends BaseConfig
 {
+    // ... outras configurações ...
+
+    /**
+     * --------------------------------------------------------------------------
+     * CSRF Protection
+     * --------------------------------------------------------------------------
+     *
+     * CSRF protection helps prevent Cross-Site Request Forgery attacks.
+     * If enabled, a CSRF token will be included in all forms and validated on POST requests.
+     */
+    public bool $csrfProtection = true;
+
+    /**
+     * --------------------------------------------------------------------------
+     * CSRF Token Name
+     * --------------------------------------------------------------------------
+     *
+     * The name of the CSRF token field in your forms.
+     *
+     * @var string
+     */
+    public string $csrfTokenName = 'csrf_field';
+
+    /**
+     * --------------------------------------------------------------------------
+     * CSRF Header Name
+     * --------------------------------------------------------------------------
+     *
+     * The name of the CSRF token header.
+     *
+     * @var string
+     */
+    public string $csrfHeaderName = 'csrf_field';
+
+    /**
+     * --------------------------------------------------------------------------
+     * CSRF Token Expiration
+     * --------------------------------------------------------------------------
+     *
+     * The number of seconds the CSRF token is valid for.
+     *
+     * @var int
+     */
+    public int $csrfExpires = 7200;
+
+    /**
+     * --------------------------------------------------------------------------
+     * CSRF Regenerate
+     * --------------------------------------------------------------------------
+     *
+     * Whether to regenerate the CSRF token on every request.
+     *
+     * @var bool
+     */
+    public bool $csrfRegenerate = true;
+
+    // ... outras configurações ...
     /**
      * --------------------------------------------------------------------------
      * Base Site URL
