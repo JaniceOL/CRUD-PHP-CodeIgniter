@@ -1,4 +1,4 @@
-# CRUD-PHP-CodeIgniter
+# CRUD-PHP-Codeigniter
 
 Este projeto é uma aplicação **CRUD** (Create, Read, Update, Delete) desenvolvida em **PHP** utilizando o framework **CodeIgniter**. A aplicação realiza as quatro operações básicas de um banco de dados com **MySQL**.
 
